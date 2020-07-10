@@ -6,9 +6,9 @@ class Anagram
   end
   
   def match(array)
-    tests = @word.sort
+    tests = @word.chars.sort.join
     array.each do |name|
-      x = name.sort
+      x = name.chars.sort.join
       if tests == x
         true 
       else 
