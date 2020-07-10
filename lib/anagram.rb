@@ -6,6 +6,14 @@ class Anagram
   end
   
   def match(array)
-    @word.match(%w(array))
+    array.each do |name|
+    tests = @word.sort
+    x = name.sort
+      if tests == x
+      true 
+    else 
+      false 
+    end
+  end
   end
 end
