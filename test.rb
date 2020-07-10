@@ -1,5 +1,5 @@
 def matches(array)
-    word = hello
+    word = "hello"
     new_array = []
     tests = word.chars.sort.join
     array.each do |name|
