@@ -10,10 +10,10 @@ class Anagram
       tests = @word.sort
       x = name.sort
       if tests == x
-      true 
-    else 
-      false 
+        true 
+      else 
+        false 
+      end
     end
-  end
   end
 end
