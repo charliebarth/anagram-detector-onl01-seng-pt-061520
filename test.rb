@@ -4,7 +4,7 @@ def matches(array)
     array.each do |name|
       x = name.chars.sort.join
       if tests == x
-        true 
+       puts 
       else 
         false 
       end
