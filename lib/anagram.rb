@@ -14,6 +14,6 @@ class Anagram
         new_array << x
       end
     end
-    x
+    new_array
   end
 end
