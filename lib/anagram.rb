@@ -11,7 +11,7 @@ class Anagram
     array.each do |name|
       x = name.chars.sort.join
       if tests == x
-        new_array << x
+        new_array << name
       end
     end
     new_array
